@@ -48,7 +48,7 @@
 ## 开发
 ```bash
 # 克隆项目
-git clone https://github.com/yin53719/baseAdmin-2.0.git
+git clone https://github.com/yin53719/vue-ui-admin.git
 
 # 安装依赖
 npm install
@@ -59,7 +59,7 @@ npm install --registry=https://registry.npm.taobao.org
 # 启动服务
 npm run dev
 ```
-浏览器访问 http://localhost:9527
+浏览器访问 http://localhost:4000
 
 ## 发布
 ```bash
