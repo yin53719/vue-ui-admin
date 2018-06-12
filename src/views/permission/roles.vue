@@ -66,7 +66,7 @@
             let len=list.length;
             var defaultChecked=[];
             if(len>0){
-              for(var i=0;i<list;i++){
+              for(var i=0;i<len;i++){
                   defaultChecked.push(list[i].menu_id);
               }
             }
