@@ -33,7 +33,7 @@
       <br/>
       <social-sign />
     </el-dialog>
-
+<script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
   </div>
 </template>
 
@@ -73,6 +73,10 @@ export default {
       loading: false,
       showDialog: false
     }
+  },
+  mounted(){
+    var ue = window.UE.getEditor('editor');
+    console.log(ue);
   },
   methods: {
     showPwd() {
